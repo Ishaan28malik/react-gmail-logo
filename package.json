@@ -1,20 +1,14 @@
 {
-  "name": "react-gmail",
+  "name": "react-day-night-toggle-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Ishaan28malik.github.io/react-gmail-logo",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "gh-pages": "^3.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
